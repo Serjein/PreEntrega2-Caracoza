@@ -25,7 +25,7 @@ h1 {
     color: rgb(250, 87, 6);
     margin-top: 5px;
     margin-left: 50px;
-    margin-right: 450px;
+    margin-right: 320px;
 }
 
 #buscar{
@@ -34,6 +34,7 @@ h1 {
     border-radius: 5px;
     margin-top: 20px;
     padding: 5px;
+    
 }
 
 .boton{
@@ -48,6 +49,7 @@ h1 {
     color: #fff;
     cursor: url(../assets/imagenes/cursor-de-mano-50.png),auto;
 }
+
 
 .monto{
     font-size: 10px !important;
