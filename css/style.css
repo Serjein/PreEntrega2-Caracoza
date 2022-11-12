@@ -68,7 +68,8 @@ main{
     grid-template-areas:  "card1 card2 card3 card4"
                           "card1 card2 card3 card4"
                           "card5 card6 card7 card8"
-                          "card5 card6 card7 card8";
+                          "card5 card6 card7 card8"
+                          "nota nota nota nota";
 grid-column-gap: 1em;
 grid-row-gap: 1em;                          
 }
@@ -212,3 +213,11 @@ cursor: url(../assets/imagenes/cursor-de-mano-50.png),auto;
 .card:hover .back {
     transform: perspective(180px) rotateY(360deg);
 }
+
+.nota{
+    grid-area: nota;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+/* termina main */
